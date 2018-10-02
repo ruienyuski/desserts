@@ -1,0 +1,262 @@
+<!-- Doctype HTML5 -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <!--設置文檔的字符編碼-->
+  <meta charset="UTF-8">
+  <!--響應式網頁設計viewpoint聲明-->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Meta Description -->
+  <meta name=" description " content=" Description of the page less than 150 characters ">
+  <meta property=" og:type " content=" website ">
+  <meta property=" og:url " content=" https://example.com/page.html ">
+  <meta property=" og:title " content=" Content Title ">
+  <meta property=" og:image " content=" https://example.com/image.jpg ">
+  <meta property=" og:description " content=" Description Here ">
+  <meta property=" og:site_name " content=" Site Name ">
+  <meta property=" og:locale " content=" zh_tw ">
+  <!--文檔標題-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
+  <title>Desserts</title>
+</head>
+
+<body>
+  <div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 px-0">
+			<button class="navbar-toggler hamger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<i class="material-icons">dehaze</i>
+			</button>
+			<a class="navbar-brand Logo" href="index.html">Sweetaste</a>
+			<i class="material-icons mobile mr-2">shopping_cart</i>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto menu">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="product.html">甜點</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="login.html">登入</a>
+					</li>
+				</ul>
+
+			</div>
+			<a class="desktop mt-4" href="cart.html">
+				<i class="material-icons">
+					shopping_cart
+				</i>
+			</a>
+		</nav>
+  </div>
+
+  <div class="container container_mb">
+    <div class="row justify-content-start">
+      <div class="col-lg-8 col-12 cart_width">
+        <div class="col-lg-12  p-3 text-center cart_title">您的購物車</div>
+        <div class="col-lg-12  cart_list">
+          <div class="col-lg-12 mt-4">
+            <div class="row justify-content-between">
+              <div class="col-lg-2 col-5 align-self-center p-0 cart_product_img bg-cover" style="background-image:url(images/cart_01.jpg);">
+              </div>
+              <div class="col-lg-7 col-7 row p-0 justify-content-center">
+                <div class="col-lg-5 col-12 align-self-center cart_product_item">
+                  <div class="product_title">焦糖馬卡龍</div>
+                  <div>NT$ 450</div>
+                </div>
+                <div class="col-lg-5 col-12 align-self-center cart_product_number">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="add">+</button>
+                    </div>
+                    <input type="text" class="form-control input_size col-4">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="subtract">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 align-self-center product_price ">NT$ 900</div>
+              <i class="material-icons col-lg-1 align-self-center cart_delete_icon">
+                delete_outline
+              </i>
+
+            </div>
+          </div>
+          <hr>
+          <div class="col-lg-2 align-self-center mobile_product_price ">NT$ 900</div>
+          <hr class="mobile">
+
+          <div class="col-lg-12 mt-4">
+            <div class="row justify-content-between">
+              <div class="col-lg-2 col-5 align-self-center p-0 cart_product_img bg-cover" style="background-image:url(images/cart_01.jpg);">
+              </div>
+              <div class="col-lg-7 col-7 row p-0 justify-content-center">
+                <div class="col-lg-5 col-12 align-self-center cart_product_item">
+                  <div class="product_title">焦糖馬卡龍</div>
+                  <div>NT$ 450</div>
+                </div>
+                <div class="col-lg-5 col-12 align-self-center cart_product_number">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="add">+</button>
+                    </div>
+                    <input type="text" class="form-control input_size col-4">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="subtract">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 align-self-center product_price ">NT$ 900</div>
+              <i class="material-icons col-lg-1 align-self-center cart_delete_icon">
+                delete_outline
+              </i>
+
+            </div>
+          </div>
+          <hr>
+          <div class="col-lg-2 align-self-center mobile_product_price ">NT$ 900</div>
+          <hr class="mobile">
+
+          <div class="col-lg-12 mt-4">
+            <div class="row justify-content-between">
+              <div class="col-lg-2 col-5 align-self-center p-0 cart_product_img bg-cover" style="background-image:url(images/cart_01.jpg);">
+              </div>
+              <div class="col-lg-7 col-7 row p-0 justify-content-center">
+                <div class="col-lg-5 col-12 align-self-center cart_product_item">
+                  <div class="product_title">焦糖馬卡龍</div>
+                  <div>NT$ 450</div>
+                </div>
+                <div class="col-lg-5 col-12 align-self-center cart_product_number">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="add">+</button>
+                    </div>
+                    <input type="text" class="form-control input_size col-4">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="subtract">-</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 align-self-center product_price ">NT$ 900</div>
+              <i class="material-icons col-lg-1 align-self-center cart_delete_icon">
+                delete_outline
+              </i>
+
+            </div>
+          </div>
+
+          <div class="col-lg-2 align-self-center mobile_product_price ">NT$ 900</div>
+          <hr class="mobile">
+        </div>
+
+
+      </div>
+      <div class="col-lg-4 col-12 order_width">
+        <div class="card text-center order_bg">
+          <div class="card-head">訂單摘要</div>
+          <div class="card-body">
+            <table class="table table-borderless">
+              <tr class="row justify-content-between">
+                <td>小計</td>
+                <td>NT$ 2,700</td>
+              </tr>
+              <tr class="row justify-content-between mb-2">
+                <td>運費</td>
+                <td>NT$ 300</td>
+              </tr>
+              <tr class="row justify-content-between order_total">
+                <td>總計</td>
+                <td>NT$ 3,000</td>
+              </tr>
+
+            </table>
+
+          </div>
+          <div class="card-footer cart_btn_bg">
+            <a href="checkout-1.html">結帳</a>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <div class="row footer_bg01 justify-content-center">
+      <div class="col-lg-3 row align-items-center mail_title">
+        <img src="images/logo_img/logo-light.svg" alt="" class="footer_logo01">
+        <span class="footer_mail_txt">訂閱你我的甜蜜郵件</span>
+      </div>
+      <div class="col-lg-5 footer_input">
+
+        <div class="row justify-content-center">
+          <div class="relative input_icon ">
+            <input type="text" name="email" title="email">
+            <i class="material-icons">
+              email
+            </i>
+
+          </div>
+          <button class="btn btn_send" type="button">
+            <i class="material-icons">
+              arrow_forward
+            </i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+    <div class=" footer_bg02">
+      <div class="footer_width row  justify-content-center">
+        <div class="col-lg-4 col-12">
+          <img src="images/logo_img/logotype-lg-dark.svg" class="footer_logo02" alt="">
+          <div class="footer_contact">
+            <p>07-1234-5678</p>
+            <p>sweetaste@email.com</p>
+            <p> 800 高雄市新興區幸福路 520 號</p>
+            <div class="footer_icon">
+              <img src="images/logo_img/ic-line@.svg" alt="">
+              <img src="images/logo_img/ic-facebook.svg" alt="">
+            </div>
+            <div class="mobile mobile_copyright">
+              © 2018 Sweetaste* All Rights Reserved
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 px-0 py-3 desktop">
+          <div class="h3 flex_vertical_txt row justify-content-start col-lg-12">
+            <img src="images/logo_img/sm-今天是個吃甜點的好日子.svg" alt="" width="59">
+
+          </div>
+          <div class="text-right col-lg-12 mt-3">
+            © 2018 Sweetaste* All Rights Reserved
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

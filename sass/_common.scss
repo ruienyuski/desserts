@@ -1,0 +1,126 @@
+/*color*/
+$MainColor:#3F5D45;
+$SecondColor:#ffffff;
+$ThirdColor:#FFE180;
+$ForthColor:#EAF0ED;
+$OtherColor:#8DA291;
+/*font-size*/
+$fz_s:18px;
+$fz_sm:20px;
+$fz_m:24px;
+$fz_ml:36px;
+$fz_l:42px;
+
+/*display*/
+$display_s:block;
+$display_n:none;
+
+
+/*font&icon*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+  font-family: 'Noto Sans TC','Microsoft JhengHei', sans-serif;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'), url(https://example.com/MaterialIcons-Regular.woff) format('woff'), url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+/*common*/
+.wrap {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+.relative {
+  position: relative;
+}
+.bg-cover{
+  background-size:cover;
+  background-position:center center;
+}
+
+ .form-group {
+   input,select {
+     border-radius: 0;
+   }
+   label {
+     display: none;
+    }
+  ::placeholder {
+    opacity: 0.5;
+  }
+  
+}
+
+.order_width,.social_width,.check_order_width,.pay_width {
+  padding:0;
+}
+.login_btn_bg,.cart_btn_bg,.check_btn_bg,.success_btn_bg {
+  background-color: $ThirdColor;
+  color: $MainColor;
+  line-height: 1.8;
+  font-size: $fz_m;
+  font-weight: bold;
+  display:block;
+  cursor: pointer;
+  a {
+    color: $MainColor;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color:darken($ThirdColor, 10%);
+  }
+}
+
+.flex_vertical_txt{
+  writing-mode: vertical-rl;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.h3 {
+  font-size: $fz_l;
+  height: 100%;
+}
+.footer {
+  .h3 {
+    font-size:30px;
+    height: auto;
+
+  }
+}
+.footer .h3 div {
+  div {
+    margin-top: 10px;
+  }
+}
+.container_mb{
+  margin-bottom: 60px;
+}
+
+.check_order_total td ,.order_total td{
+  font-size: $fz_sm;
+  font-weight: bold;
+  margin: 0 -3px;
+}
+
+.label {
+  line-height: 2.3;
+  font-size:$fz_sm ;
+  padding: 0;
+}
+
+
+@media (max-width: 480px) { 
+  .container_mb{
+    margin-bottom: 0px;
+  }
+
+}
