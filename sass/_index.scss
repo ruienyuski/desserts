@@ -302,6 +302,9 @@ input {
 
 
 @media (max-width: 480px) {
+  .mobile_header {
+    padding: 0;
+  }
   .header {
     height: 277px;
   }

@@ -44,7 +44,9 @@ $display_n:none;
   background-size:cover;
   background-position:center center;
 }
-
+a:hover {
+  text-decoration: none;
+}
  .form-group {
    input,select {
      border-radius: 0;

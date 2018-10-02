@@ -33,6 +33,10 @@
   background-position: center center;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .form-group input, .form-group select {
   border-radius: 0;
 }
@@ -484,6 +488,9 @@ input {
 }
 
 @media (max-width: 480px) {
+  .mobile_header {
+    padding: 0;
+  }
   .header {
     height: 277px;
   }
