@@ -20,14 +20,13 @@
     padding: 15px 100px 15px 50px;
     border: none;
   }
-  .custom-checkbox .custom-control-label::before {
-    border-radius: 0;
-  }
+}
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0;
 }
 
 .checkbox_style {
   color:$SecondColor;
-  // padding: 0 0.12rem 0 0.12rem;
   text-align: left;
 }
 

@@ -699,7 +699,7 @@ input {
   border: none;
 }
 
-.login_bg .custom-checkbox .custom-control-label::before {
+.custom-checkbox .custom-control-label::before {
   border-radius: 0;
 }
 
